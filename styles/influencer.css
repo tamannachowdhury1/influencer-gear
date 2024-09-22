@@ -104,14 +104,22 @@
 }
 
 /* <!-- company name added --> */
+.company {
+    margin-top: 3%;
+}
+
 .company-logo-con {
 
     display: flex;
     justify-content: center;
+    align-items: center;
     gap: 100px;
-    margin-top: 5%;
-    box-shadow: 0ch;
 
+}
+
+hr {
+    width: 40%;
+    color: slategray;
 }
 
 @media screen and (max-width: 576px) {
@@ -166,7 +174,7 @@
         background-repeat: no-repeat;
         margin: 22px 51px 0px 52px;
         margin-top: 4%;
-        border: 2px solid red;
+
         width: 70%;
         height: 100%;
     }
@@ -204,4 +212,32 @@
 
     }
 
+    .company-logo-con {
+        display: grid;
+        grid-template-columns: repeat(4, 100px);
+        gap: 1px;
+        justify-content: space-around;
+        margin-top: 30%;
+    }
+
+    .rakutun {
+        margin-left: 30%;
+        margin-top: 15%;
+    }
+
+    .rakutun-2 {
+        margin-left: 45%;
+        margin-top: 15%;
+    }
+
+    .rakutun-3 {
+        margin-left: 70%;
+        margin-top: 15%;
+    }
+
+
+
+    hr {
+        display: none;
+    }
 }
