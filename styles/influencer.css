@@ -142,7 +142,7 @@ hr {
     .nav-title {
         text-align: center;
         width: 250px;
-
+        margin-left: -18%;
 
     }
 
@@ -192,7 +192,7 @@ hr {
         text-align: center;
 
         margin-top: -32%;
-
+        margin-left: -12%;
 
     }
 
@@ -218,6 +218,11 @@ hr {
         gap: 1px;
         justify-content: space-around;
         margin-top: 30%;
+    }
+
+    .company-logo-con img {
+        width: 100px;
+        height: 50px;
     }
 
     .rakutun {
